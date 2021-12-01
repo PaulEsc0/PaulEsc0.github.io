@@ -1,0 +1,214 @@
+
+/* 
+Colors
+#4CAF50 Green
+#5f5f5f Dark Gray
+#a39bcc Violeta primer fondo
+*/
+
+@media only screen and ( min-width: 768px)
+{
+	#mainContainer 
+	{
+		color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    line-height: 16px;
+    width: 50%;
+	}
+}
+
+@media only screen and ( max-width: 768px)
+{
+	#mainContainer 
+	{
+		color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    line-height: 16px;
+    width: 80%;
+	}
+}
+
+
+body {
+		background-color: #a39bcc;
+	/*background-color: #f3e2b6;*//*Color de tarde*/
+	}
+
+h2
+{
+	font-family: "Verdana";
+}
+
+.tabs {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tabs button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tabs button:hover {
+  background-color: #ddd;
+}
+
+.tabs button.active {
+  background-color: #ccc;
+}
+
+.tabBasicContent{
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.tabMenu
+{
+	float: top;
+	float: left;
+	background-color: black;
+	display: block;
+	color: black;
+    min-width: 320px;
+	position: fixed;
+	z-index: 999;
+    -webkit-transition: box-shadow 250ms;
+    transition: box-shadow 250ms;
+    max-height: : 60px;
+}
+
+#menu
+{
+	position: fixed;
+	top: 0;
+    left: 0;
+    right: 0;
+}
+
+.tabsButtons
+{
+	padding: 0px;
+	margin: 0px;
+	max-width: 90px;
+	width: 90px;
+	
+	height: 58px;
+}
+
+.left{float: left;}
+.right{float: right;}
+
+.dayColor 
+{
+	background-image: linear-gradient(to bottom right, lightblue, white);
+	vertical-align: middle;
+	margin-right: 6px;
+	margin-bottom: 8px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.afternoonColor 
+{
+	background-image: linear-gradient(to bottom right, orange, #F2D589);
+	vertical-align: middle;
+	margin-right: 6px;
+	margin-bottom: 8px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.nightColor 
+{
+	background-image: linear-gradient(to bottom right, #1D0283, #766EBD);
+	vertical-align: middle;
+	margin-right: 6px;
+	margin-bottom: 8px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.fontButtons
+{	
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	max-width: 58.6px;
+	width: 60px;
+	max-height: 40px;
+	height: 36px;
+	vertical-align: center;
+
+	position: relative;
+	top: 50%;
+	bottom: 50%;
+	
+}
+.centered {
+	position: absolute;
+    top: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+}
+
+
+
+.buttons
+{
+	display: inline-block;
+
+	background-color: #efefef;
+	color: black;
+	border-color: #000000;
+
+	border: 2px solid;
+    border-radius: 6px;
+    padding: 5px;
+	margin: 4px 2px;
+	/*min-width: 500px;*/
+	max-width: 800px;
+	/*max-height: 64px;*/
+	/*width : 600px;*/
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.buttons:hover
+{
+	display: inline-block;
+
+	background-color: lightgray;
+	color: black;
+	border-color: white;
+
+	border: 2px solid;
+    border-radius: 6px;
+    padding: 5px;
+	margin: 4px 2px;
+	max-width: 800px;
+	/*max-height: 64px;*/
+	/*min-width: 500px;
+	max-height: 64px;
+	width : 600px;*/
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+}
+

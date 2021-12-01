@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chichen's Answers</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+	<!--
+	<script type="text/javascript" src="myScript.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	-->
+	
+
+	<script type="text/javascript"                 src="https://dl.dropboxusercontent.com/s/nnu9umb5ts1idlc/myScript.js?dl=0"></script>
+												       
+	<link rel="stylesheet" type="text/css"        href="https://dl.dropboxusercontent.com/s/2a10diku9ip7rfp/styles.css?dl=0">
+</head>
+<body>
+	<div>
+	<header class="tabMenu" id="menu"  role="banner">
+		<div class="left" class="tabs">
+			<button class="tabsButtons" class="tablinsk" id="defaultTab" onclick="openTab(event, 'basicTab')" >Basics</button>
+			<button class="tabsButtons" class="tablinsk" onclick="openTab(event, 'AHTab')">AH</button>
+			<!--
+			<button class="tabsButtons" class="tablinsk" onclick="openTab(event, 'KikiTab')" disabled>Kiki</button>
+			<button class="tabsButtons" class="tablinsk" onclick="openTab(event, 'CoppaTab')" disabled>Customs</button>
+			-->
+		</div>
+		
+		<div class="right">
+			<button class="dayColor" onclick="setDayTheme()" ondblclick="setDefaultTheme()"></button>
+			<button class="afternoonColor" onclick="setAfternoonTheme()"></button>
+			<button class="nightColor" onclick="setNightTheme()" ondblclick="setDarkTheme()"></button>
+			<!--
+			<button class="fontButtons" style="font-size: 12px;">a A</button>
+			<button class="fontButtons" style="font-size: 16px;">a A</button>
+			<button class="fontButtons" style="font-size: 22px;">a A</button>
+			-->
+		</div>
+	</header>
+	</div>
+	<div class="centered">
+		<div id="mainContainer">
+			<div id="basicTab" class="tabcontent">
+
+				<h2>FEEDBACK</h2>	
+				<button onclick="copyTextFromElement('text1')" class="buttons">
+				    <div id="text1">Thank you for the feedback, we really appreciate it. For now, our development team is working on fun additions to the game that we feel you will like!</div>
+				</button>
+
+				<button onclick="copyTextFromElement('text2')" class="buttons">
+				    <div id="text2">Thank you for playing our game and your feedback, this is very helpful for us. We'll discuss it with our developers.</div>
+				</button>
+
+				
+				<button onclick="copyTextFromElement('text3')" class="buttons">
+				    <div id="text3">We’re sorry you feel that way! Even now our development team is working on fun additions to the game that we feel you will like!</div>
+				</button>
+
+				<h2>REQUIRES SENDING AN EMAIL</h2>
+				<button onclick="copyTextFromElement('text4')" class="buttons">
+				    <div id="text4">Thank you for playing our game! If you ever have some suggestions or feedback to share with us, feel free to write us at help@hyperbeard.com</div>
+				</button>
+
+				<button onclick="copyTextFromElement('text5')" class="buttons">
+				    <div id="text5">Thank you for playing our game! If you’d like to provide us with feedback, please write to us at help@hyperbeard.com</div>
+				</button>
+				
+				<button onclick="copyTextFromElement('text6')" class="buttons">
+				    <div id="text6">Please write to us at help@hyperbeard.com, so we can help you.</div>
+				</button>
+				
+				<button onclick="copyTextFromElement('text7')" class="buttons">
+				    <div id="text7">We’re sorry you feel that way! If you’d like to provide us with feedback, please write to us at help@hyperbeard.com</div>
+				</button>
+				
+				<button onclick="copyTextFromElement('text8')" class="buttons">
+				    <div id="text8">If you send an email, please wait we are working faster as we can to respond to all email :D</div>
+				</button>
+
+				<h2>KNOWN BUGS</h2>
+				<button onclick="copyTextFromElement('text9')" class="buttons">
+				    <div id="text9">Hi, we are aware about this issue, we are working on it. Will be fixed soon.</div>
+				</button>
+
+				<button onclick="copyTextFromElement('text10')" class="buttons">
+				    <div id="text10">We are aware about this issue, we are working on it. Will be fixed soon.</div>
+				</button>
+
+				<h2>OPTIMIZATION</h2>
+				<button onclick="copyTextFromElement('text11')" class="buttons">
+				    <div id="text11">Please send us more info of your device to help@hyperbeard.com. We sincerely apologize for the troubles you’ve had with the app, we are working on the optimization for most devices.</div>
+				</button>
+				<button onclick="copyTextFromElement('text12')" class="buttons">
+				    <div id="text12">We sincerely apologize for the troubles you’ve had with the app. We are working on the optimization for all devices.</div>
+				</button>
+				<button onclick="copyTextFromElement('text13')" class="buttons">
+					<div id="text13">We are constantly working on optimization to be compatible with the most devices possible. We recommend keeping your OS up to date.</div>
+				</button>
+
+				<h2>MORE STARS</h2>
+				<button onclick="copyTextFromElement('text14')" class="buttons">
+				    <div id="text14">We're very happy that you like our game. Be sure to give us more stars!</div>
+				</button>
+
+				<button onclick="copyTextFromElement('text15')" class="buttons">
+				    <div id="text15">We appreciate the feedback! Please let us know how we can earn your 5 star rating!</div>
+				</button>
+				
+				<button onclick="copyTextFromElement('text16')" class="buttons">
+				    <div id="text16">Thanks for your review. Glad to see that you liked the game. We would love to get a 5 star rating from you. Do share with your friends and keep playing!</div>
+				</button>	
+
+				<h2>COPPA</h2>
+				<button onclick="copyTextFromVar(answerCoppa)" class="buttons">
+				    <div> COPPA Answer<br>(Please read it before send it)</div>
+				</button>
+
+			</div>
+
+			<div id="AHTab" class="tabcontent" >
+				<h2>Adorable Home</h2>
+				<button onclick="copyTextFromVar(answerHowToPlay)" class="buttons">
+				    <div> HOW TO PLAY</div>
+				</button>
+				<button onclick="copyTextFromElement('text20')" class="buttons">
+				    <div id="text20">Hi, if you are a new user, or if you just reinstalled the game, the whole house will become available for you once you buy the garden or after three days of gameplay.</div>
+				</button>
+				<button onclick="copyTextFromElement('text21')" class="buttons">
+				    <div id="text21">Sometimes it can take between 8 and 16 hours for your partner to return home from their activities.</div>
+				</button>
+				<button onclick="copyTextFromVar(answerMissingCats)" class="buttons">
+				    <div> Sometimes cats hide behind the furniture</div>
+				</button>
+				<button onclick="copyTextFromElement('text22')" class="buttons">
+					<div id="text22">We sincerely apologize for the troubles you had with the app. Please, free some memory in your device and try to take the moment again. Thank you for playing!</div>
+				</button>
+			</div>
+
+			<div id="KikiTab" class="tabcontent" >
+				<h2></h2>
+			</div>
+
+			<!--div id="CoppaTab" class="tabcontent" >
+				<button onclick="copyTextFromVar('answerCoppa')" class="buttons">
+				    <div> COPPA Answer<br>(Please read it before send it)</div>
+				</button>
+			</div-->
+
+		</div>
+	</div>
+</body>
+</html>			
