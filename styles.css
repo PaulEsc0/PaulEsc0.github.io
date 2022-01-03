@@ -43,13 +43,15 @@ h2
 	font-family: "Verdana";
 }
 
-.tabs {
+.tab {
   overflow: hidden;
+  float: left;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
+
 }
 
-.tabs button {
+.tab button {
   background-color: inherit;
   float: left;
   border: none;
@@ -57,14 +59,27 @@ h2
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
+
+	margin: 0px;
+	max-width: 90px;
+	width: 90px;
+	
+	height: 58px;
 }
 
-.tabs button:hover {
+.tab button:hover {
   background-color: #ddd;
 }
 
-.tabs button.active {
-  background-color: #ccc;
+.tab button.active {
+  background-color: #a795ff;
+}
+
+.tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border-top: none;
+
 }
 
 .tabBasicContent{
@@ -107,8 +122,8 @@ h2
 	height: 58px;
 }
 
-.left{float: left;}
-.right{float: right;}
+.left{}
+.theme{float: right;}
 
 .dayColor 
 {
@@ -167,8 +182,6 @@ h2
 	min-height: 100vh;
 }
 
-
-
 .buttons
 {
 	display: inline-block;
@@ -211,4 +224,5 @@ h2
 	font-size: 16px;
 	cursor: pointer;
 }
+
 
